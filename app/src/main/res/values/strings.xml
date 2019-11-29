@@ -1,3 +1,9 @@
 <resources>
     <string name="app_name">TotalService</string>
+
+    //Login
+    <string name="hint_nombre_usuario">Nombre Usuario</string>
+    <string name="hint_password">Contraseña</string>
+
+
 </resources>
