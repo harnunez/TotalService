@@ -18,4 +18,9 @@
         <item name="android:textColorHint">@color/edit_text_color_white</item>
         <item name="colorAccent">@color/edit_text_color_white</item>
     </style>
+
+    <style name="EditTextBlack" parent="Theme.AppCompat">
+        <item name="android:textColorHint">@color/edit_text_color_black</item>
+        <item name="colorAccent">@color/edit_text_color_black</item>
+    </style>
 </resources>

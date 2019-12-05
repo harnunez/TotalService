@@ -5,6 +5,9 @@
     <string name="hint_nombre_usuario">Nombre Usuario</string>
     <string name="hint_password">Contraseña</string>
     <string name="button_login">Login</string>
+    <string name="dont_have_account">No tienes cuenta?,</string>
+    <string name="create_account">crea una aquí</string>
+    <string name="create_account_name">Nombre de usuario</string>
 
 
 </resources>
