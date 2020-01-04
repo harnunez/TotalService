@@ -8,5 +8,11 @@
     <string name="dont_have_account">Do you dont have account?,</string>
     <string name="create_account">create account here</string>
     <string name="create_account_name">Nombre de usuario</string>
+    <string name="create_account_email">Correo</string>
+    <string name="create_account_user">Usuario</string>
+    <string name="create_account_password">Contraseña</string>
+    <string name="create_account_confirm_pass">Confirma contraseña</string>
+    <string name="button_create_account">Únete</string>
+    <string name="tittle_create_Account_toolbar">Crear cuenta</string>
 
 </resources>

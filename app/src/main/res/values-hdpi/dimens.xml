@@ -4,5 +4,6 @@
     <dimen name="dimen_login">22dp</dimen>
     <dimen name="padding_horizontal_login">32dp</dimen>
     <dimen name="padding_horizontal_create_account">32dp</dimen>
+    <dimen name="padding_vertical_layout">58dp</dimen>
 
 </resources>
