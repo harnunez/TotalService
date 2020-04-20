@@ -15,4 +15,9 @@
     <string name="button_create_account">Únete</string>
     <string name="tittle_create_Account_toolbar">Crear cuenta</string>
 
+    //Navigation Bottom
+    <string name="tab_search">Search</string>
+    <string name="tab_home">Home</string>
+    <string name="tab_profile">Profile</string>
+
 </resources>

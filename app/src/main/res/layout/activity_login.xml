@@ -82,6 +82,7 @@
                     android:layout_height="wrap_content"
                     android:text="@string/button_login"
                     android:theme="@style/RaisedButtonDark"
+                    android:onClick="goToContainerActivity"
                 />
 
                 <RelativeLayout

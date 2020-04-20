@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:cardview="http://schemas.android.com/tools"
+    android:id="@+id/cardview_picture"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="8dp"
+    android:layout_marginTop="8dp"
+    android:layout_marginRight="8dp"
+    android:minHeight="200dp"
+    cardview:cardCornerRadius="4dp">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:id="@+id/cardview_picture_in">
+
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+
+            <ImageView
+                android:id="@+id/pictureViewCard"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:background="@drawable/paris_hiver"
+                android:scaleType="centerCrop"
+                />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_gravity="bottom"
+                android:paddingLeft="8dp"
+                >
+
+                <TextView
+                    android:id="@+id/usernameCard"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Harnefer Nunez"
+                    android:textColor="@android:color/black"
+                    android:textSize="25sp"/>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    >
+
+                    <TextView
+                        android:id="@+id/firstWord"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Hace"
+                        android:textColor="@android:color/black"
+                        android:textSize="15sp"/>
+
+                    <TextView
+                        android:id="@+id/timCard"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@android:color/black"
+                        android:layout_marginLeft="5dp"
+                        android:text="4 dias"
+                        android:textSize="15sp"
+
+                        />
+
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp">
+
+                        <CheckBox
+                            android:layout_height="wrap_content"
+                            android:layout_width="wrap_content"
+                            android:id="@+id/checkboxLike"
+                            android:button="@drawable/checkbox_btn"
+                        />
+
+                    <TextView
+                        android:id="@+id/likeNumberCard"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@android:color/black"
+                        android:text="10 Me gusta"
+                        android:textSize="8sp"
+                        android:layout_gravity="center"
+                        />
+
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+
+        </FrameLayout>
+    </androidx.cardview.widget.CardView>
+
+
+</com.google.android.material.card.MaterialCardView>
