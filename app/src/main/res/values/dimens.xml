@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="appbarlayout_detail_picture">256dp</dimen>
+</resources>

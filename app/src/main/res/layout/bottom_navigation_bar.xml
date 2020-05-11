@@ -9,6 +9,8 @@
     android:layout_alignParentBottom="true"
     android:layout_gravity="bottom|end"
     app:menu="@xml/bottom_nav"
+    app:itemTextColor="@color/edit_text_color_white"
+
     >
 
 
